@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: Poppins, sans-serif;
+}
+
+/* Navbar */
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  display: inline;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-top: 20px;
+  padding: 5px 5px 15px;
+  border-bottom: 1px black solid;
+}
+
+.menu-item-26 {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+/* Art Dealer Page */
+
+.list {
+  list-style: none;
+}
+
+.list a {
+  text-decoration: none;
+  color: black;
+}
+
+.list a:hover {
+  color: #1669a1;
+}
+
+.list li {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  font-size: 15px;
+  width: 900px;
+  transform: translateX(37%);
+}
+
+.gallery-katwijk img {
+  border-radius: 10px;
+  transform: translateX(53%);
+  max-width: 700px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.timeline {
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  border-top: 3px black solid;
+  border-bottom: 3px black solid;
+  border-radius: 20px;
+}
+
+.timeline a {
+  text-decoration: none;
+}
+
+.timeline a:visited {
+  color: black;
+}
+
+.timeline .wp-block-group {
+  width: max-content;
+  display: flex;
+  align-items: center;
+}
+
+.timeline h3 {
+  padding: 15px;
+  width: 85px;
+  text-align: center;
+  height: auto;
+  background-color: black;
+  border: 2px solid;
+  color: white;
+  margin: 10px 40px 10px 40px;
+}
+
+.timeline .wp-block-group p {
+  border-left: 2px black solid;
+  padding: 10px;
+}
+
+
+/* Artist statement begin */
+
+.artist {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  -webkit-column-gap: 1em;
+  -moz-column-gap: 1em;
+  column-gap: 1em;
+  margin: 1.5em;
+  padding: 0;
+  -moz-column-gap: 1.5em;
+  -webkit-column-gap: 1.5em;
+  column-gap: 1.5em;
+  font-size: 0.85em;
+}
+
+.size-full {
+  display: inline-block;
+  background: #fff;
+  padding: 1em;
+  margin: 0 0 1.5em;
+  width: 100%;
+  -webkit-transition: 1s ease all;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-shadow: 2px 2px 4px 0 #ccc;
+  border: 1.5px black solid;
+}
+
+.size-full img {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 320px) {
+  .artist {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  .artist {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  .artist {
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .artist {
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-count: 4;
+  }
+}
+
+.artist img {
+  transition: 1s ease;
+}
+
+.artist img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.18);
+  transition: 1s ease;
+}
+
+/* MEDID*/
+h1 {
+  justify-content: center;
+  display: flex;
+
+  text-align: center;
+  /* font-family: cursive;
+  font-size: 40px;
+  color: #6A0572;
+  text-align: center;
+  margin: 40px 0; */
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  margin: 20px auto;
+  gap: 20px;
+  width: 60%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+.media li {
+  list-style: none;
+}
+.media li a {
+  color: #124e66;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.media li a:hover {
+  color: #748d92;
+}
+
+.media .wp-block-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #124e66;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.media figure {
+  position: relative;
+  width: 60%;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background-color: #000;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+img .wp-image-248 {
+  width: 250px;
+  height: 250px;
+  /* border-radius: 8px; */
+}
+#menu-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 25px;
+  margin-top: 50px;
+}
+
+#menu-menu li {
+  font-size: larger;
+  background-color: #6c7371;
+  padding: 8px 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+#menu-menu li:hover {
+  background-color: #5a625e;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+#menu-menu li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+#menu-menu li a:hover {
+  color: #f0f0f0;
+}
+
+.figure img {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+}
+.test:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  /* transform: scale(1.5); */
+}
+.test:hover p {
+  display: block;
+}
+.test:hover h3 {
+  display: block;
+}
+.test p {
+  color: rgb(0, 0, 0) !important;
+  display: none;
+  padding-left: 50px;
+}
+.test h3 {
+  color: #124e66 !important;
+  padding-left: 50px;
+  display: none;
+}
+
+.Paintings {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 10px 0;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-left: 5px solid #ccc;
+}
+
+    selector{​​
+    --radius: 8px;
+    --height: 320px;
+    --active-height: 410px;
+    --overlay: 0.75;
+}​​
+selector{​​
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 0.8s ease-in-out;
+}​​
+selector.loaded{​​
+    opacity: 1;
+    transform: translateX(0);
+}​​
+selector .swiper-wrapper{​​
+    height: var(--active-height);
+    align-items: center;
+}​​
+selector:not(.loaded) .swiper-wrapper{​​
+    transition-duration: 0s !important;
+}​​
+selector .swiper-slide{​​
+    display: flex;
+    align-items: flex-end;
+    border-radius: var(--radius);
+    height: var(--height);
+    box-shadow: 0 0 50px rgba(0,0,0,0.15);
+}​​
+selector.loaded .swiper-slide{​​
+    transition: all 0.3s ease-in-out 0.2s;
+}​​
+selector .swiper-slide.swiper-slide-active{​​
+    height: var(--active-height);
+}​​
+selector .swiper-slide:before{​​
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(20deg, rgba(0,0,0,var(--overlay)) 0%, rgba(0,0,0,0) 100%);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}​​
+selector .elementor-testimonial__footer{​​
+    display: block;
+}​​
+selector img{​​
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--radius);
+}​​
+selector .elementor-testimonial__cite{​​
+    z-index: 2;
+    position: relative;
+}​​
+selector .elementor-testimonial__name{​​
+    margin-bottom: 5px;
+}​​
+selector .swiper-pagination,
+selector .elementor-swiper-button{​​
+    display: none;
+}​​
+selector .swiper-container{​​
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}​​
+@media (max-width: 1024px){​​
+selector{​​
+    --height: 180px;
+    --active-height: 250px;
+}​​
+}​​
+@media (max-width: 767px){​​
+selector{​​
+    --height: 80px;
+    --active-height: 105px;
+    width: 100% !important;
+    max-width: var(--container-widget-width, 300px) !important;
+}​​
+selector .elementor-testimonial__cite{​​
+    opacity: 0;
+}​​
+}​
+/* custom css for the testimonial widget */
