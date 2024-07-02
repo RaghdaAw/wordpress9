@@ -21,8 +21,8 @@
   justify-content: center;
   align-items: center;
   gap: 70px;
-  margin-top: 20px;
-  padding: 5px 5px 15px;
+  margin-top: 15px;
+  padding: 10px;
   border-bottom: 1px black solid;
 }
 
@@ -126,7 +126,20 @@
   column-gap: 1.5em;
   font-size: 0.85em;
 }
+/* .size-full{
+  display: inline-block;
+  background: #fff;
+  padding: 1em;
+  margin: 0 0 1.5em;
+  width: 100%;
+  -webkit-transition: 1s ease all;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-shadow: 2px 2px 4px 0 #ccc;
+  border: 1.5px black solid;
 
+} */
 .artist .size-full {
   display: inline-block;
   background: #fff;
@@ -141,7 +154,7 @@
   border: 1.5px black solid;
 }
 
-.size-full img {
+.artist .size-full img {
   max-width: 100%;
 }
 
@@ -269,7 +282,8 @@ h1 {
 
 #menu-menu li {
   font-size: larger;
-  background-color: #6c7371;
+  /* background-color: #6c7371; */
+  background-color: black;
   padding: 8px 10px;
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -277,7 +291,7 @@ h1 {
 }
 
 #menu-menu li:hover {
-  background-color: #5a625e;
+  background-color: #323332;
   transform: translateY(-5px);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
@@ -293,13 +307,31 @@ h1 {
 }
 
 .figure img {
-  width: 250px;
-  height: 250px;
+  width: auto !important;
+  height: 250px !important;
   border-radius: 8px;
-
+  /* max-width: 100%; */
 }
+/* .figure {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  -webkit-column-gap: 1em;
+  -moz-column-gap: 1em;
+  column-gap: 1em;
+  margin: 1.5em;
+  padding: 0;
+  -moz-column-gap: 1.5em;
+  -webkit-column-gap: 1.5em;
+  column-gap: 1.5em;
+  font-size: 0.85em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
 .test:hover {
-  transform: scale(1.1);
+  transform: scale(1);
   transition: transform 0.5s;
   /* transform: scale(1.5); */
 }
@@ -312,12 +344,12 @@ h1 {
 .test p {
   color: rgb(0, 0, 0) !important;
   display: none;
-  padding-left: 50px;
+  /* padding-left: 50px; */
   
 }
 .test h3 {
   color: #124e66 !important;
-  padding-left: 50px;
+  /* padding-left: 50px; */
   display: none;
 }
 /* .Paintings */
@@ -341,4 +373,23 @@ height: 0px;
 
 .the-content-class {
   overflow: hidden;
+}
+/* footer */
+.site-footer {
+  background-color: white;
+  color: black;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-container p {
+  margin: 0;
+  color: black;
+  font-size: 1em;
 }

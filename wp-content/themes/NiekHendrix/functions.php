@@ -43,7 +43,7 @@ function load_stylesheets()
     add_theme_support('menus');
     register_nav_menus(
         array(
-            'header-menu' => __('Header Menu', 'theme'),
+            'nav' => __('nav', 'theme'),
             'menu' => __('Menu', 'theme'),
         )
     );

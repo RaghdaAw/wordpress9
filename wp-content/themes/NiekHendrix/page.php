@@ -8,8 +8,8 @@ if ( is_page('Paintings') ) : ?>
         <div>
             <?php the_content(); ?>
         </div>
+        <?php get_footer(); ?>
     </div>
-    <?php get_footer(); ?> 
 <?php else : ?>
     <div class="container pt-5 pb-5">
         <h1><?php the_title(); ?></h1>
@@ -18,8 +18,10 @@ if ( is_page('Paintings') ) : ?>
             <?php the_content(); ?>
         </div>
     </div>
-    <?php get_footer(); ?> 
-<?php endif; ?>
+   
+    <?php endif; ?>
+    <?php get_footer(); ?>
+
 
 
 
