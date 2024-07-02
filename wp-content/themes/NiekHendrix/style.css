@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   font-family: Poppins, sans-serif;
+  cursor: default;
 }
 
 /* Navbar */
@@ -66,9 +67,9 @@
 
 /* biographyy beginning */
 
-.timeline {
+/* .timeline {
   width: 650px;
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   justify-content: center;
   margin-left: auto;
@@ -86,11 +87,12 @@
 .timeline a:visited {
   color: black;
 }
-
-.timeline .wp-block-group {
-  width: max-content;
-  display: flex;
-  align-items: center;
+ 
+.timeline  .wp-block-group .wp-block-group__inner-container {
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  
 }
 
 .timeline h3 {
@@ -107,8 +109,63 @@
 .timeline .wp-block-group p {
   border-left: 2px black solid;
   padding: 10px;
+} */
+
+/* BIOGRAPHY RAGHDA */
+.timeline {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 20px;
+  border-top: 4px solid #333;
+  border-bottom: 4px solid #333;
+  border-radius: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.timeline .wp-block-heading{
+  color: #124e66;
 }
 
+.timeline a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.timeline a:visited {
+  color: #333;
+}
+
+.timeline .wp-block-group .wp-block-group__inner-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.timeline h3 {
+  padding: 15px;
+  width: 100px;
+  text-align: center;
+  background-color: black;
+  color: #fff !important;
+  margin: 0 40px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+
+.timeline .wp-block-group p {
+  flex: 1;
+  border-left: 3px solid #333;
+  padding: 15px;
+  background-color: #fff;
+  margin: 0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+/* ...................... */
 
 /* Artist statement begin */
 
