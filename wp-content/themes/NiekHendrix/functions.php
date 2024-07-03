@@ -59,3 +59,5 @@ function add_class_to_paragraphs($content) {
     return $content;
 }
 add_filter('the_content', 'add_class_to_paragraphs');
+
+

@@ -1,7 +1,7 @@
 
 
 <?php  echo get_the_title() ?>
-<?php echo get_the_content() ?>
+<?php  get_the_content() ?>
 <?php  get_header() ?>
 <?php  wp_footer() ?>
 
